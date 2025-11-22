@@ -4,5 +4,4 @@ c = 0
 for i in abc:
     if i in vowels:
         c += 1
-
 print(c) 
