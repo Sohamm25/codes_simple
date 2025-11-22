@@ -5,7 +5,7 @@
 #         return fibonacci(n - 1) + fibonacci(n - 2)
 # a = int(input("Enter a number: "))
 # print(fibonacci(a))
-# 0, 1, 1, 2, 3, 5, 8
+# 0, 1, 1, 2, 3, 5, 8 
 # def fib():
 #     a = int(input("Enter:"))
 #     def build_fib():
@@ -27,3 +27,4 @@ def fib_memo(n, aaa={}):
     return aaa[n]
 a = int(input("Enter a number: "))
 print(f"Fibonacci number at position {a} is {fib_memo(a)}")
+
