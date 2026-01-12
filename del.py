@@ -1,7 +1,7 @@
 # lcm and gcd
 a = int(input())
 b = int(input())
-#for lcm- 
+#for lcm-  
 aa = []
 bb = []
 if a > b:
@@ -48,3 +48,4 @@ else:
     print("The list is empty, no minimum value.")
 
 print(ab, ba, abcd)
+
